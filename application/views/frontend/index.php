@@ -8,11 +8,8 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item active px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url(); ?>index.php">Home
+          <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url(); ?>index.php">Home
           </a>
-        </li>
-        <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url().'index.php/dashboard/about' ?>">About</a>
         </li>
         <li class="nav-item px-lg-4">
           <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url().'index.php/dashboard/products' ?>">Products</a>
@@ -24,35 +21,20 @@
     </div>
   </div>
 </nav>
-<section class="page-section clearfix">
+<section class="page-section about-heading">
   <div class="container">
-    <div class="intro">
-      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="<?php echo base_url(); ?>assets/frontend/img/intro.jpg" alt="">
-      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-        <h2 class="section-heading mb-4">
-          <span class="section-heading-upper">Fresh Coffee</span>
-          <span class="section-heading-lower">Worth Drinking</span>
-        </h2>
-        <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
-        </p>
-        <div class="intro-button mx-auto">
-          <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section cta">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-9 mx-auto">
-        <div class="cta-inner text-center rounded">
-          <h2 class="section-heading mb-4">
-            <span class="section-heading-upper">Our Promise</span>
-            <span class="section-heading-lower">To You</span>
-          </h2>
-          <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-lower">Home Profile</span>
+            </h2>
+            <p><strong>PT. Tunas Sari Mulia</strong> Merupakan Perusahaan yang bergerak dalam bidang minuman dengan produk utama adalah minuman cincau siap minum. Kantor pusat PT. Tunas Sari Mulia bermarkas di Purwokerto.  Perusahaan ini berawal dengan sistem manajemen keluarga dan berusaha memanfaatkan tanaman cincau yang berada di Indonesia ini. Perusahaan ini bergerak dibawah lisensi Tan Soon Mui Food Industries Singapura.
+            </p>
+            <p class="mb-0">Salah satu produk utama yang dihasilkan yaitu minuman cincau SenSoh Cinco-To yang siap untuk langsung diminum. Bahan yang digunakan merupakan bahan baku cincau alami, gula, air dan perasa pandan. Untuk menjaga kualitas produk kami menerapkan sistem kebijakan halal pada perusahaan dimulai dari pembuatan produk hingga produk sampai ke konsumen dan telah mendapatkan sertifikasi halal dari Majelis Ulama Indonesia dan terdaftar pada Badan Pengawas Obat Dan Makanan.</p>
+          </div>
         </div>
       </div>
     </div>

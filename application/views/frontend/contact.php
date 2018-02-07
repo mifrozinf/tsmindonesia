@@ -12,9 +12,6 @@
           </a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url().'index.php/dashboard/about' ?>">About</a>
-        </li>
-        <li class="nav-item px-lg-4">
           <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url().'index.php/dashboard/products' ?>">Products</a>
         </li>
         <li class="nav-item active px-lg-4">
