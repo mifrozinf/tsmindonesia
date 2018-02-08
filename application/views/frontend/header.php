@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <!-- Custom styles for this template -->
     <link href="<?php echo base_url(); ?>assets/frontend/css/business-casual.min.css" rel="stylesheet">
-
+    <link rel="icon" type="image/png" href="<?php echo base_url(); ?>assets/img/logo.jpg">
 </head>
 
 <body>

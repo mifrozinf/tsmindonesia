@@ -1,21 +1,20 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
   <div class="container">
-    <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+    <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">MENU</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url(); ?>index.php">Home
-          </a>
+          <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url('Dashboard'); ?>">Home</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url().'index.php/dashboard/products' ?>">Products</a>
+          <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('Products'); ?>">Products</a>
         </li>
         <li class="nav-item active px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url().'index.php/dashboard/contact' ?>">Contact</a>
+          <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('Contact'); ?>">Contact</a>
         </li>
       </ul>
     </div>

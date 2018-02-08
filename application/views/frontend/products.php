@@ -1,21 +1,20 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
   <div class="container">
-    <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+    <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">MENU</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url(); ?>index.php">Home
-          </a>
+          <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url('Dashboard'); ?>">Home</a>
         </li>
         <li class="nav-item active px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url().'index.php/dashboard/products' ?>">Products</a>
+          <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('Products'); ?>">Products</a>
         </li>
         <li class="nav-item px-lg-4">
-          <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url().'index.php/dashboard/contact' ?>">Contact</a>
+          <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('Contact') ?>">Contact</a>
         </li>
       </ul>
     </div>
@@ -33,10 +32,10 @@
           </h2>
         </div>
       </div>
-      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url(); ?>assets/frontend/img/<?php echo $row->picture; ?>" alt="">
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url(); ?>assets/img/<?php echo $row->picture; ?>" alt="">
       <div class="product-item-description d-flex mr-auto">
         <div class="bg-faded p-5 rounded">
-          <p class="mb-0">We take pride in our work, and it shows. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan Cappuccino, a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.</p>
+          <p class="mb-0"><?php echo $row->description; ?></p>
         </div>
       </div>
     </div>
