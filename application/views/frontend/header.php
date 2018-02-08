@@ -17,8 +17,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link href="<?php echo base_url(); ?>assets/frontend/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="<?php echo base_url(); ?>https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="<?php echo base_url(); ?>assets/frontend/css/business-casual.min.css" rel="stylesheet">
@@ -27,8 +27,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <body>
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">TSM CINCAU OFFICIAL</span>
-      <span class="site-heading-lower">YOUR DAILY CINCAU</span>
-  </h1>
+        <!--   <img src="<?php echo base_url(); ?>assets/img/logo.jpg" class="gambar"></img><br> -->
+        <span class="site-heading-lower">TSM INDONESIA</span>
+    </h1>
+    <style type="text/css">
+    .gambar{
+        height: 125px;
+        width: 125px;
+    }
+</style>
 
-  
+
