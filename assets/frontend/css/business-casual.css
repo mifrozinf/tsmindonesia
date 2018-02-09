@@ -69,7 +69,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgb(143, 188, 144);
   font-family: 'Raleway';
 }
 
@@ -139,7 +139,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgb(143, 188, 144);
 }
 
 .cta .cta-inner {
@@ -219,7 +219,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgb(143, 188, 144);
 }
 
 .text-primary {
