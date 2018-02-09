@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>TSM CINCAU</title>
+    <title>TSM INDONESIA</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url('assets/frontend/vendor/bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet">
